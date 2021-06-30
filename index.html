@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - NCYUDEDM_PART4</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>嘉義大學視藝系</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+  <a class="navbar-brand" href="#"><img src="data:image/png;base64,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"width=50px alt="嘉義大學">嘉大視藝</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#s1">系所介紹</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#s2">課程師資</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#s3">課程推廣</a>
+      </li> 
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#s4">聯絡資訊</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+<br>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.pinimg.com/564x/aa/4c/b8/aa4cb83c9fc9e448bb4bda3ef370208a.jpg" alt="bear" width="100%" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/564x/fd/af/7f/fdaf7fe9fa34263a7cc53650872ca7e9.jpg" alt="bbb" width="100%" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/564x/8f/6d/c4/8f6dc44406a41f9b1c693849e3b07605.jpg" alt="ccc" width="100%" height="100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+  <section id="s1">
+<div class="container-fluid">
+   <div class="row">
+  <div class="col-sm-12">
+    <h1>系所介紹</h1>
+    <hr/>
+    </div>
+         <div class="col-sm-6">
+           <h2>大學部</h2>
+      <p>培育專業藝術創作者、藝術設計師與藝術理論研究者，一方面引導學生認識藝術與設計之專業知識與研究方法；另方面使學生能夠從藝術材料與形式之探討中體會與表達視覺的觀念，並強化學生視覺敏銳度、表現能力與就業競爭力。同時提供學生嘗試獨立創作與研究之機會。並推動與社區間的藝術文化合作之活動，以提昇社區居民對藝術的瞭解與欣賞能力，促使學生更親近鄉土，熱愛與美化這片土地。</p>
+           <p>本系藉由有效之課程與教學，增進學生之藝術創作、設計、藝術教育與藝術理論之能力，同時強調傳統藝術媒材與電腦科技之互補，以及藝術創作與藝術理論之統整。未來本系將加強數位設計、文創產業、藝術教育之研究與推廣，以提昇學生升學與就業之競爭力。其教育目標分述如下： </p>
+
+           <ol>
+             <li>增進視覺藝術創作專業能力 </li>
+             <li>提昇數位藝術與設計專業知能 </li>
+             <li>奠定視覺藝術教育與行政專業素養</li>
+             <li>建立視覺藝術理論專業知能</li>
+           </ol>
+    </div>
+    <div class="col-sm-6">
+      <h2>碩士班</h2>
+      <p>培育視覺藝術研究人才，研究取向包括：視覺藝術教育、文化藝術行政、藝術基礎理論與藝術史、以及視覺藝術創作等領域。本碩士班在這些領域中所強調之重點分別為：一、藝術教育新思潮之探討、以及具本國特色與社區本位之藝術教育的研發。二、文化行政與藝術管理之專業知識的培養。三、著重本國情境之藝術基礎理論與藝術史的探討。四、兼具文化省思與人文素養之藝術創作能力的培養。為增進學術專業之提昇與貢獻，本碩士班將加強國際學術交流、關注國內文化教育發展需求，並規劃於未來成立博士班，以培育高級視覺藝術研究人才。</p>
+           <p>本碩士班旨在增進學生進階之藝術創作、設計、藝術教育與文化行政、藝術理論與應用之能力，同時強調傳統藝術媒材與電腦科技之互補，以及藝術創作與藝術理論與應用之統整。未來將加強數位藝術與設計、藝術教育與文化行政、藝術創意與應用之研究與推廣，以提昇學生升學與就業之競爭力。其教育目標分述如下：  </p>
+
+           <ol>
+             <li>增進進階視覺藝術創作專業能力 </li>
+             <li>提昇進階數位藝術與設計專業知能</li>
+             <li>奠定進階視覺藝術教育與行政專業素養</li>
+             <li>強化進階視覺藝術理論與創意研發</li>
+           </ol>
+    </div> 
+  </div>
+  </div>
+  </section>
+  
+  <section id="s2">
+<div class="container-fluid">
+   <div class="row">
+  <div class="col-sm-12">
+    <h1>課程師資</h1>
+    <hr/>
+    </div>
+     
+     <div class="col-sm-3">
+       <div class="card">
+  <img class="card-img-top" src="https://www.ncyu.edu.tw/files/site_content/art/IMG_20140718_155457_22.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">廖瑞章</h4>
+    <p class="card-text">
+    系主任
+    </p>
+    <a href="https://www.ncyu.edu.tw/art/content.aspx?site_content_sn=14100" target="_blank" class="btn btn-primary">更多資訊</a>
+  </div>
+</div>
+       
+     </div>
+      <div class="col-sm-3">
+       <div class="card">
+  <img class="card-img-top" src="https://www.ncyu.edu.tw/files/site_content/art/陳箐繡生活照.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">陳箐繡</h4>
+    <p class="card-text">
+    教授
+    </p>
+    <a href="https://www.ncyu.edu.tw/art/content.aspx?site_content_sn=14088" target="_blank" class="btn btn-primary">更多資訊</a>
+  </div>
+</div>
+       
+     </div>
+      <div class="col-sm-3">
+       <div class="card">
+  <img class="card-img-top" src="https://www.ncyu.edu.tw/files/site_content/art/簡瑞榮大頭照.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">簡瑞榮</h4>
+    <p class="card-text">
+    教授
+    </p>
+    <a href="https://www.ncyu.edu.tw/art/content.aspx?site_content_sn=14091" target="_blank" class="btn btn-primary">更多資訊</a>
+  </div>
+</div>
+       
+     </div>
+      <div class="col-sm-3">
+       <div class="card">
+  <img class="card-img-top" src="https://www.ncyu.edu.tw/files/site_content/art/IMG_20140718_155457_22.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">廖瑞章</h4>
+    <p class="card-text">
+    系主任
+    </p>
+    <a href="https://www.ncyu.edu.tw/art/content.aspx?site_content_sn=14100" target="_blank" class="btn btn-primary">更多資訊</a>
+  </div>
+</div>
+       
+     </div>
+      <div class="col-sm-3">5
+       <div class="card">
+  <img class="card-img-top" src="https://www.ncyu.edu.tw/files/site_content/art/IMG_20140718_155457_22.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">廖瑞章</h4>
+    <p class="card-text">
+    系主任
+    </p>
+    <a href="https://www.ncyu.edu.tw/art/content.aspx?site_content_sn=14100" target="_blank" class="btn btn-primary">更多資訊</a>
+  </div>
+</div>
+       
+     </div>
+   </div>
+   </div>
+  </section>
+   <section id="s3">
+<div class="container-fluid">
+   <div class="row">
+  <div class="col-sm-12">
+    <h1>學術推廣</h1>
+    <hr/>
+    </div>
+     <div class="col-sm-6">
+       <a href="https://www.ncyu.edu.tw/etech/content.aspx?site_content_sn=60712" target="_blank">
+       <h3>2021數位廣告營<span class="badge badge-secondary">NEW</span></h3>
+         <img src="https://nnnnnnn77.github.io/nnnnnnn77/dedmcamp.jpg" alt"2021數位廣告營" class="img-thumbnail">
+       </a>
+       </div>
+       <div class="col-sm-6">
+          <a href="https://www.ncyu.edu.tw/etech/content.aspx?site_content_sn=57531">
+       <h3>2021華山論簡<span class="badge badge-secondary">NEW</span></h3>
+         <img src="https://nnnnnnn77.github.io/nnnnnnn77/dedmppt.png" alt"2021華山論簡" class="img-thumbnail">
+       </a>
+       </div>
+         
+       </div>
+
+    </div>
+   </div>
+  </section>
+ <section id="s4">
+<div class="container-fluid">
+   <div class="row">
+  <div class="col-sm-12">
+    <h1>聯絡資訊</h1>
+    <hr/>
+    </div>
+     <div class="col-sm-4">
+       <h4>國立嘉義大學數位學習設計與管理學系
+</h4>
+        <p>地址:嘉義縣民雄鄉文隆村85號 國立嘉義大學民雄校區教育館4樓</p>
+       <p>Tel:+886-5-2263411 Est.1511</p>
+       <p>Fax:+886-5-2062328</p>
+       <p>Mailbox:etech@mail.ncyu.edu.tw</p>      
+       <p>Copyright © 2017 All Rights Reserved.</p>
+       
+     </div>
+     <div class="col-sm-8">
+       <div class="embed-responsive embed-responsive-16by9">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.656361431393!2d120.42157891514186!3d23.544858984691047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ebdeffdc92891%3A0xd6339a15a2fa6328!2zNjIx5ZiJ576p57ij5rCR6ZuE6YSJ5pWZ6IKy6aSo!5e0!3m2!1szh-TW!2stw!4v1625042832387!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+     </div>
+     <button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
